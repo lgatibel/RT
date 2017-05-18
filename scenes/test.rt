@@ -1,0 +1,6 @@
+<scene>
+	//<name>Arthur est dans la place</name>
+	<ambient>0.1</ambient>
+	<anti-aliasing>8</anti-aliasing>
+	<max-reflexion>8</max-reflexion>
+</scene>

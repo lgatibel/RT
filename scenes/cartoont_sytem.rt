@@ -1,0 +1,187 @@
+<!--------- Global Settings ---------->
+
+<scene>
+	<name>420 blaze it</name>
+	<ambient>.20</ambient>
+	<max-reflexion>1</max-reflexion>
+</scene>
+
+<!------------ Camera(s) ------------->
+
+<camera>
+	<name>skyday</name>
+	<position>14.00 0.00 2.00</position>
+	<rotation>0.00 22.50 0.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<camera>
+	<name>skynight</name>
+	<position>0.00 0.00 2.00</position>
+	<rotation>720.00 0.00 1.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<camera>
+	<name>camera 2</name>
+	<position>0.00 0.00 2.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<focal>55</focal>
+</camera>
+
+<!------------ Light(s) -------------->
+
+<light>
+	<name>Prout</name>
+	<type>Diffuse</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>0.00 0.00 20.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<light>
+	<name>Prout2</name>
+	<type>Spot</type>
+	<visibility>True</visibility>
+	<flare-visibility>False</flare-visibility>
+	<position>8.50 0.00 20.00</position>
+	<color-rgb>255.00 255.00 255.00</color-rgb>
+	<intensity>5.00</intensity>
+</light>
+
+<!------------ Object(s) ------------->
+
+<object>
+	<name>Sphere 2</name>
+	<type>Sphere</type>
+	<preset>Sun</preset>
+	<visibility>True</visibility>
+	<position>5.50 -55.00 394.50</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>130.05 130.05 127.50</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>90.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>1.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>1</shader>
+</object>
+
+<object>
+	<name>Sphere 3</name>
+	<type>Sphere</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>33.50 63.50 200.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>130.05 130.05 129.03</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>46.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>4</shader>
+</object>
+
+<object>
+	<name>Sphere 4</name>
+	<type>Sphere</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>-25.00 0.00 150.50</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>252.96 255.00 255.00</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>4.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>4</shader>
+</object>
+
+<object>
+	<name>Sphere 4</name>
+	<type>Sphere</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>13.50 -5.00 89.50</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>130.56 119.34 124.95</color-rgb>
+	<opacity>.70</opacity>
+	<radius>4.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>6</shader>
+</object>
+
+<object>
+	<name>Plane 1</name>
+	<type>Plane</type>
+	<preset>No Preset</preset>
+	<visibility>True</visibility>
+	<position>0.00 0.00 0.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>127.50 127.50 127.50</color-rgb>
+	<opacity>1.00</opacity>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>0</shader>
+</object>
+
+<object>
+	<name>Sphere 5</name>
+	<type>Sphere</type>
+	<preset>Moon</preset>
+	<visibility>True</visibility>
+	<position>5.00 0.00 65.50</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>253.98 211.14 205.53</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>7.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>1</specular>
+	<shader>9</shader>
+</object>
+
+<object>
+	<name>Cylinder 1</name>
+	<type>Cylinder</type>
+	<preset>No Preset</preset>
+	<visibility>False</visibility>
+	<position>0.00 0.00 83.00</position>
+	<rotation>0.00 0.00 0.00</rotation>
+	<color-rgb>127.50 127.50 127.50</color-rgb>
+	<opacity>1.00</opacity>
+	<radius>4.00</radius>
+	<width>50.00</width>
+	<height>50.00</height>
+	<lenght>50.00</lenght>
+	<reflection>0.00</reflection>
+	<refraction>0</refraction>
+	<specular>0</specular>
+	<shader>0</shader>
+</object>
+
